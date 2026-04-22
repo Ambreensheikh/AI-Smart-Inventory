@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import { Mail, Lock, User, ArrowRight, Github } from "lucide-react";
+import { Mail, Lock, User, ArrowRight} from "lucide-react";
 import Link from "next/link";
-
+import { FaGithub } from "react-icons/fa";
 export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true);
 
@@ -50,7 +50,7 @@ export default function AuthPage() {
             </div>
 
             <button className="w-full bg-slate-950 border border-slate-800 text-white py-4 rounded-2xl flex items-center justify-center gap-3 hover:bg-slate-900 transition-all">
-              <Github size={20} /> Github
+              <FaGithub size={20} /> Github
             </button>
           </div>
 
