@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import { Mail, Lock, User, ArrowRight} from "lucide-react";
+import { Mail, Lock, User, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
+
 export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true);
 
